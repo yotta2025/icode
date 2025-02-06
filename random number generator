@@ -1,0 +1,9 @@
+import random
+
+# Set the seed value
+random.seed(1234567)
+
+# Generate 6 random numbers between 1 and 49
+random_numbers = [random.randint(1, 49) for _ in range(6)]
+
+print("Generated numbers:", random_numbers)
